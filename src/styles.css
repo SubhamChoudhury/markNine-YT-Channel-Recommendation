@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  color: white;
+}
+.btn {
+  margin-left: 20px;
+}
+
+body {
+  margin: 2rem 1.5rem;
+  background: linear-gradient(#00c3ff, #ffff1c);
+}
+
+hr {
+  border: 1px solid black;
+}
+.desc {
+  text-align: center;
+  color: red;
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+h3 {
+  font-family: "Alegreya", serif;
+}
+li p {
+  font-family: "Titillium Web", sans-serif;
+}
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  background-color: red;
+  border: 1.5px solid black;
+  color: white;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  display: flex;
+  background-color: #063970;
+  border: 1px solid white;
+  margin-bottom: 1.2rem;
+  border-radius: 0.8rem;
+  justify-content: center;
+}
+
+img {
+  width: 150px;
+  object-fit: cover;
+  padding: 1rem 0rem 1rem 1rem;
+}
